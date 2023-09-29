@@ -1,8 +1,8 @@
 import React from 'react'
-import '../styles/Header.scss'
 import { Link } from 'react-router-dom'
 import { FiShoppingBag } from 'react-icons/fi'
 import { useSelector } from 'react-redux'
+import '../styles/Header.css'
 
 
 const Header = () => {

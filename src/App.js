@@ -3,7 +3,8 @@ import { Toaster } from 'react-hot-toast';
 import Home from './components/Home'
 import Header from './components/Header'
 import Cart from './components/Cart';
-import './styles/app.scss'
+import './styles/app.css'
+import './styles/mediaquery.css'
 
 
 function App() {

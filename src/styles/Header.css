@@ -1,0 +1,39 @@
+nav {
+  background-color: #ed5615;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+nav>h2 {
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+nav>div {
+  display: flex;
+  align-items: center;
+}
+
+nav>div>a {
+  color: #1d1d1d;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  transition: all 0.3s;
+}
+
+nav>div>a:hover {
+  opacity: 0.5;
+}
+
+nav>div>a>p {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font: 900 0.7rem "Roboto";
+  display: grid;
+  place-items: center;
+  transform: translate(80%, -80%);
+}

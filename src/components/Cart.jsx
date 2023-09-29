@@ -1,8 +1,7 @@
 import React from 'react'
-import '../styles/cart.scss'
 import { AiFillDelete } from 'react-icons/ai'
 import { useDispatch, useSelector } from 'react-redux';
-
+import '../styles/cart.css'
 
 
 const Cart = () => {

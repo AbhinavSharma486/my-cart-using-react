@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.productCard {
+  background-color: white;
+  width: 200px;
+  margin: 2rem;
+  border-radius: 5px;
+  padding: 2rem;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productCard>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.productCard>h4 {
+  margin: 1rem;
+}
+
+.productCard>button {
+  cursor: pointer;
+  background-color: #ed5615;
+  border: none;
+  padding: 1rem;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.5s;
+  font-weight: 500;
+  width: 100%;
+}
+
+.productCard>button:hover {
+  background-color: #c54812;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
